@@ -17,4 +17,8 @@ class Stopwatch extends React.Component {
       this.handleClick = this.handleClick.bind(this);
       this.resetTimer = this.resetTimer.bind(this);
     }
+    //psuedocode: create a function in order to check whether the timer is on or not
+    handleClick() {
+        
+    }
 }
