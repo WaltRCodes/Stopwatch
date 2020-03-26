@@ -45,4 +45,13 @@ class Stopwatch extends React.Component {
     componentWillUpdate(){
         this.time = setInterval(() => this.onChange(), 1000);
     }
+    //psuedocode: render everything needed for the timer
+    render() {
+        //this creates buttons for the timer
+        return (
+            <div>
+
+            </div>
+        );
+    }
 }
