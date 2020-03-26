@@ -57,6 +57,9 @@ class Stopwatch extends React.Component {
                 <button onClick={this.handleClick}>
                 Pause
                 </button>
+                <button onClick={this.resetTimer}>
+                Reset
+                </button>
             </div>
         );
     }
