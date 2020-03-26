@@ -35,10 +35,14 @@ class Stopwatch extends React.Component {
     onChange = (e) => {
       //on a change the timer is update 
       if(this.state.isToggleOn){
-        console.log(this.state.time);
-        this.setState(prevState => ({
-          time: prevState.time+1
-        }));
+            console.log(this.state.time);
+            this.setState(prevState => ({
+            time: prevState.time+1
+            }));
+        }
     }
+    //psuedocode: have the timer count up. this is actually depreciated and should be changed
+    componentWillUpdate(){
+        this.time = setInterval(() => this.onChange(), 1000);
     }
 }
