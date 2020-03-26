@@ -31,4 +31,8 @@ class Stopwatch extends React.Component {
         time: 0
       }));
     }
+    //psuedocode: have a function increment the time when the toggle for th timer is on
+    onChange = (e) => {
+        
+    }
 }
