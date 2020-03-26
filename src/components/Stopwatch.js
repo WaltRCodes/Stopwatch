@@ -33,6 +33,12 @@ class Stopwatch extends React.Component {
     }
     //psuedocode: have a function increment the time when the toggle for th timer is on
     onChange = (e) => {
-        
+      //on a change the timer is update 
+      if(this.state.isToggleOn){
+        console.log(this.state.time);
+        this.setState(prevState => ({
+          time: prevState.time+1
+        }));
+    }
     }
 }
