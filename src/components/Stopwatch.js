@@ -8,5 +8,10 @@ class Stopwatch extends React.Component {
     constructor(props) {
       //psuedocode:call the super methods to input props
       super(props);
+      //psuedocode: create state keys for the toggle of the timer and time key
+      this.state = {
+        isToggleOn: false,
+        time: 0
+      };
     }
 }
