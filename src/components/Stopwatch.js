@@ -24,4 +24,8 @@ class Stopwatch extends React.Component {
         isToggleOn: !prevState.isToggleOn
       }));
     }
+    //psuedocode: create a function to reset the timer
+    resetTimer() {
+        
+    }
 }
