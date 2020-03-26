@@ -64,3 +64,5 @@ class Stopwatch extends React.Component {
         );
     }
 }
+//psuedocode:export the stopwatch class
+export default Stopwatch;
