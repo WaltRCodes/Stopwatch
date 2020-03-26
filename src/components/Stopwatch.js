@@ -13,5 +13,8 @@ class Stopwatch extends React.Component {
         isToggleOn: false,
         time: 0
       };
+      //psuedocode: creating functions to bund to the stopwatch class
+      this.handleClick = this.handleClick.bind(this);
+      this.resetTimer = this.resetTimer.bind(this);
     }
 }
