@@ -19,6 +19,9 @@ class Stopwatch extends React.Component {
     }
     //psuedocode: create a function in order to check whether the timer is on or not
     handleClick() {
-        
+      //this updates the toggle state
+      this.setState(prevState => ({
+        isToggleOn: !prevState.isToggleOn
+      }));
     }
 }
