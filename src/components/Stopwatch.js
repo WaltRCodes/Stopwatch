@@ -50,7 +50,10 @@ class Stopwatch extends React.Component {
         //this creates buttons for the timer
         return (
             <div>
-
+                <h1 id="timer">{this.state.time}</h1>
+                <button onClick={this.handleClick}>
+                Start
+                </button>
             </div>
         );
     }
