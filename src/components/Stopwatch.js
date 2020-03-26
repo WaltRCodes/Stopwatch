@@ -42,8 +42,8 @@ class Stopwatch extends React.Component {
         }
     }
     //psuedocode: have the timer count up. this is actually depreciated and should be changed
-    componentWillUpdate(){
-        this.time = setInterval(() => this.onChange(), 1000);
+    componentDidUpdate(){
+        this.time = setTimeout(() => this.onChange(), 1000);
     }
     //psuedocode: render everything needed for the timer
     render() {
