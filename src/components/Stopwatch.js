@@ -26,6 +26,9 @@ class Stopwatch extends React.Component {
     }
     //psuedocode: create a function to reset the timer
     resetTimer() {
-        
+      //this sets the time to 0
+      this.setState(prevState => ({
+        time: 0
+      }));
     }
 }
