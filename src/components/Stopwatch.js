@@ -6,6 +6,7 @@ import React from 'react';
 class Stopwatch extends React.Component {
     //psuedocode: create the constructor for the Stopwatch class
     constructor(props) {
-        
+      //psuedocode:call the super methods to input props
+      super(props);
     }
 }
